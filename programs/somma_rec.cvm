@@ -1,0 +1,35 @@
+; somma primi n numeri RICOSIVA
+33	; numero righe
+12	; inserisci 10 nel registro 1
+1	;
+10	; (primo overflow si verifica a 8192)
+20	; chiama l' istruzione contenuta in posizione 8
+8	;
+1	; stampa il contenuto del registro 30
+30	;
+0	; termina il programma
+10	; salva nello stack il contenuto del registro 1
+1	;
+24	; jump a riga 13 se il valore prelevato dallo stack è maggiore di 0
+13	;
+21	; return
+12	; inserisci 1 nel registro 2
+2	;
+1	;
+10	; salva nello stack il contenuto del registro 1
+1	;
+31	; sottrai il contenuto del registro 1 al contenuto del registro 2
+1	;
+2	;
+11	; salva nel registro 1 il valore prelevato dallo stack
+1	;
+20	; chiama l' istruzione contenuta in posizione 8
+8	;
+11	; salva nel registro 1 il valore prelevato dallo stack
+1	;
+30	; somma il valore contenuto nel registro 30 con quello del registro 1
+30	;
+1	;
+11	; salva nel registro 30 il valore prelevato dallo stack
+30	;
+21	; return

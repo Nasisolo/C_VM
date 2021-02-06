@@ -1,0 +1,37 @@
+; fattoriale ricorsivo
+35	; numero righe
+12	; inserisci 5 nel registro 0
+0	;
+10	; (a 13 si verfica overflow)
+20	; chiama l' istruzione contenuta in posizione 8
+8	;
+1	;
+30	;
+0	; termina il programma
+12;	 inserisci 2 nel registro 1
+1	;
+2	;
+12	; inserisci 1 nel registro 20
+20	;
+1	;
+12	; inserisci 1 nel registro 30
+30	;
+1	;
+31	; sottrai il contenuto del registro 0 al contenuto del registro 1
+0	;
+1	;
+25	; jump a riga 34 se il valore prelevato dallo stack è minore di 0
+34	;
+32	; moltiplica il valore contenuto nel registro 30 con quello del registro 1
+30	;
+1	;
+11	; salva nel registro 30 il valore prelevato dallo stack
+30	;
+30	; somma il valore contenuto nel registro 1 con quello del registro 20
+1	;
+20	;
+11	; salva nel registro 1 il valore prelevato dallo stack
+1	;
+22	; jump a riga 17
+17	;
+21	; return
