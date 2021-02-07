@@ -1,4 +1,4 @@
-# C_VM
+# C Virtual Machine
 
 Implementazione una macchina virtuale con registri e stack che esegua dei programmi specificati in codice macchina in un’array di interi nel quale ciascuna istruzione occupa un numero variabile di posizioni.
 
